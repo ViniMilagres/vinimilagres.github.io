@@ -4,116 +4,186 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Certificados e Cursos | Marcus Vinicius Milagres</title>
-  <meta name="description" content="Certificados e cursos de Marcus Vinicius Milagres em Inteligência Artificial, Banco de Dados, SQL, Python, Delphi, TIC, Gestão de TI e Negócios.">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Certificados e cursos de Marcus Vinicius Milagres em IA, banco de dados, SQL, Python, Delphi, TIC, gestão e negócios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <header class="page-header">
-    <div class="container">
-      <p class="eyebrow">Formação complementar</p>
-      <h1>Certificados e cursos</h1>
-      <p>
-        Organização dos cursos e certificados por área de conhecimento. Os arquivos devem ser publicados
-        somente em versões sem CPF, RG ou dados pessoais sensíveis.
-      </p>
+  <header class="topbar">
+    <div class="container navbar">
+      <a class="brand" href="./index.html">
+        Marcus Vinicius Milagres
+        <small>Tecnologia, Sistemas e Automação</small>
+      </a>
+      <nav class="nav-links" aria-label="Menu principal">
+        <a href="./index.html">Início</a>
+        <a href="./curriculo.html">Currículo</a>
+        <a href="./historia.html">Minha história</a>
+        <a class="ativo" href="./certificados.html">Certificados</a>
+        <a href="https://github.com/ViniMilagres">GitHub</a>
+      </nav>
     </div>
   </header>
 
-  <nav class="main-nav">
-    <div class="container nav-content">
-      <a href="./index.html">Início</a>
-      <a href="./curriculo.html">Currículo</a>
-      <a href="./historia.html">Minha história</a>
-      <a href="./certificados.html">Certificados</a>
-      <a href="https://github.com/ViniMilagres">GitHub</a>
-    </div>
-  </nav>
-
   <main>
+    <section class="page-hero">
+      <div class="container hero-card">
+        <div>
+          <p class="eyebrow">Certificados e cursos</p>
+          <h1>Formação contínua organizada por área.</h1>
+          <p class="hero-subtitle">IA para negócios • SQL • Banco de Dados • Python • Delphi • TIC • Gestão</p>
+          <p class="hero-text">
+            Esta página organiza minha formação acadêmica e complementar. Os certificados podem ser adicionados em PDF ou imagem,
+            preferencialmente em versões tratadas, sem CPF, RG, endereço ou dados sensíveis.
+          </p>
+        </div>
+        <aside class="note">
+          Por segurança, use aqui apenas arquivos tratados. Não publique documentos com CPF, RG, endereço completo ou QR Code sensível.
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Formação acadêmica</p>
+          <h2>Formação principal</h2>
+        </div>
+
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <small>Inteligência Artificial</small>
+            <h3>MBA em Inteligência Artificial para Negócios</h3>
+            <p>Faculdade Exame • Concluído em 2025 • 360 horas</p>
+            <a class="btn btn-secondary" href="./assets/certificados/mba-inteligencia-artificial.pdf">Ver certificado</a>
+          </article>
+
+          <article class="certificate-card">
+            <small>Engenharia de Software</small>
+            <h3>Pós-graduação em Engenharia de Software</h3>
+            <p>Formação complementar com TCC pendente.</p>
+            <a class="btn btn-secondary" href="#">Adicionar comprovante</a>
+          </article>
+
+          <article class="certificate-card">
+            <small>Administração</small>
+            <h3>Bacharelado em Administração</h3>
+            <p>Concluído em 2012. Base de gestão, processos, negócio e tomada de decisão.</p>
+            <a class="btn btn-secondary" href="#">Adicionar comprovante</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <section class="section">
       <div class="container">
-        <div class="notice">
-          <strong>Atenção:</strong> por segurança, publique aqui apenas PDFs/imagens tratados, sem CPF, RG,
-          endereço completo, QR Codes sensíveis ou outros dados pessoais desnecessários.
+        <div class="section-head">
+          <p class="eyebrow">TI e desenvolvimento</p>
+          <h2>Cursos complementares em tecnologia</h2>
         </div>
 
-        <h2>Inteligência Artificial e Gestão</h2>
-        <div class="cards-grid certificates-grid">
-          <article class="card certificate-card">
-            <h3>MBA em Inteligência Artificial para Negócios</h3>
-            <p>Faculdade Exame • 360 horas • Concluído em 2025</p>
-            <a class="btn btn-small" href="./assets/certificados/mba-inteligencia-artificial-negocios.pdf">Ver certificado</a>
-          </article>
-
-          <article class="card certificate-card">
-            <h3>Fundamentos da Gestão de TI</h3>
-            <p>FGV Online • 5 horas • 2012</p>
-            <a class="btn btn-small" href="./assets/certificados/fundamentos-gestao-ti-fgv.pdf">Ver certificado</a>
-          </article>
-
-          <article class="card certificate-card">
-            <h3>Produto, Marca e Serviços</h3>
-            <p>FGV Online • 5 horas • 2012</p>
-            <a class="btn btn-small" href="./assets/certificados/produto-marca-servicos-fgv.pdf">Ver certificado</a>
-          </article>
-        </div>
-
-        <h2 class="mt-large">Banco de Dados, SQL e Sistemas</h2>
-        <div class="cards-grid certificates-grid">
-          <article class="card certificate-card">
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <small>Banco de Dados</small>
             <h3>Banco de Dados, SQL e Modelagem</h3>
             <p>Udemy • 27 horas • 2020</p>
-            <a class="btn btn-small" href="./assets/certificados/banco-de-dados-sql-modelagem.pdf">Ver certificado</a>
+            <a class="btn btn-secondary" href="./assets/certificados/banco-de-dados-sql-modelagem.pdf">Ver certificado</a>
           </article>
 
-          <article class="card certificate-card">
+          <article class="certificate-card">
+            <small>Banco de Dados</small>
             <h3>Banco de Dados e ANSI SQL para Iniciantes</h3>
             <p>Udemy • 3 horas • 2017</p>
-            <a class="btn btn-small" href="./assets/certificados/banco-de-dados-ansi-sql-iniciantes.pdf">Ver certificado</a>
+            <a class="btn btn-secondary" href="./assets/certificados/banco-de-dados-ansi-sql.pdf">Ver certificado</a>
           </article>
 
-          <article class="card certificate-card">
+          <article class="certificate-card">
+            <small>Delphi</small>
             <h3>Curso Completo de Delphi XE8</h3>
             <p>Udemy • 12,5 horas • 2020</p>
-            <a class="btn btn-small" href="./assets/certificados/delphi-xe8.pdf">Ver certificado</a>
+            <a class="btn btn-secondary" href="./assets/certificados/delphi-xe8.pdf">Ver certificado</a>
           </article>
-        </div>
 
-        <h2 class="mt-large">Python, Infraestrutura e TIC</h2>
-        <div class="cards-grid certificates-grid">
-          <article class="card certificate-card">
+          <article class="certificate-card">
+            <small>Python</small>
             <h3>Introdução à Programação com Python</h3>
             <p>Kenzie Academy Brasil • 10 horas • 2021</p>
-            <a class="btn btn-small" href="./assets/certificados/introducao-python-kenzie.pdf">Ver certificado</a>
+            <a class="btn btn-secondary" href="./assets/certificados/python-introducao.pdf">Ver certificado</a>
           </article>
 
-          <article class="card certificate-card">
+          <article class="certificate-card">
+            <small>TIC</small>
             <h3>Competência Transversal: Tecnologia da Informação e Comunicação</h3>
             <p>SENAI-SP • 14 horas</p>
-            <a class="btn btn-small" href="./assets/certificados/tic-senai-sp.pdf">Ver certificado</a>
+            <a class="btn btn-secondary" href="./assets/certificados/tic-senai.pdf">Ver certificado</a>
           </article>
         </div>
+      </div>
+    </section>
 
-        <h2 class="mt-large">Atendimento, Relacionamento e Liderança</h2>
-        <div class="cards-grid certificates-grid">
-          <article class="card certificate-card">
+    <section class="section section-muted">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Gestão e negócios</p>
+          <h2>Formação complementar em gestão, atendimento e negócio</h2>
+        </div>
+
+        <div class="certificate-grid">
+          <article class="certificate-card">
+            <small>Gestão de TI</small>
+            <h3>Fundamentos da Gestão de TI</h3>
+            <p>FGV Online • 5 horas • 2012</p>
+            <a class="btn btn-secondary" href="./assets/certificados/fundamentos-gestao-ti-fgv.pdf">Ver certificado</a>
+          </article>
+
+          <article class="certificate-card">
+            <small>Negócios</small>
+            <h3>Produto, Marca e Serviços</h3>
+            <p>FGV Online • 5 horas • 2012</p>
+            <a class="btn btn-secondary" href="./assets/certificados/produto-marca-servicos-fgv.pdf">Ver certificado</a>
+          </article>
+
+          <article class="certificate-card">
+            <small>Atendimento e liderança</small>
             <h3>Treinamento de Alto Desempenho</h3>
-            <p>ContrataRH • Marketing de Relacionamento, Endomarketing, Vendas, Atendimento ao Público e Liderança • 6 horas • 2015</p>
-            <a class="btn btn-small" href="./assets/certificados/treinamento-alto-desempenho-contratarh.pdf">Ver certificado</a>
+            <p>ContrataRH • Marketing de relacionamento, endomarketing, vendas, atendimento e liderança • 6 horas • 2015</p>
+            <a class="btn btn-secondary" href="./assets/certificados/alto-desempenho-contratarh.pdf">Ver certificado</a>
           </article>
         </div>
+      </div>
+    </section>
 
-        <div class="notice notice-secondary">
-          <strong>Observação:</strong> os botões acima consideram a nomenclatura final sugerida para os arquivos.
-          Depois de tratar os PDFs, salve-os na pasta <code>assets/certificados/</code> com exatamente esses nomes.
+    <section class="section">
+      <div class="container grid-2">
+        <div class="resume-panel">
+          <p class="eyebrow">Como adicionar arquivos</p>
+          <h2>Onde colocar os PDFs</h2>
+          <p>
+            Coloque os arquivos tratados dentro da pasta abaixo e ajuste o nome do arquivo nos botões desta página:
+          </p>
+          <p><strong>assets/certificados/</strong></p>
+          <p>
+            Exemplo: se o arquivo se chamar <strong>python-introducao.pdf</strong>, o link do botão deve apontar para
+            <strong>./assets/certificados/python-introducao.pdf</strong>.
+          </p>
         </div>
+        <aside class="resume-panel">
+          <h3>Cuidados antes de publicar</h3>
+          <ul class="info-list" style="margin-top: 1rem;">
+            <li>Remover CPF e RG.</li>
+            <li>Remover endereço completo.</li>
+            <li>Avaliar se QR Code expõe dados pessoais.</li>
+            <li>Usar nomes de arquivo simples, sem acentos e sem espaços.</li>
+            <li>Testar todos os botões depois de publicar.</li>
+          </ul>
+        </aside>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="footer">
     <div class="container footer-grid">
       <p>© Marcus Vinicius Milagres — Certificados e cursos</p>
       <div>
